@@ -55,15 +55,6 @@ app.post("/", (req, res)=>{
     request.end();
 })
 
-// Failure
-app.post("/failure", (req, res)=>{
-res.redirect("/");
-});
-
-
-
-
-
 app.listen(process.env.PORT || 8000, ()=>{
     console.log("It is working on Port 8000");
 });
