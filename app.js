@@ -38,6 +38,7 @@ app.post("/", (req, res)=>{
     const options = {
         method: "POST",
         auth: "ollan1:e516f9588cd12c9e29df94220ddb2371-us8"
+        //authorisation doesn't actually work. I turned it off when I placed it on GITHUB.
     }
 
     const request = https.request(url, options, (response)=>{
